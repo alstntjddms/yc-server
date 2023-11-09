@@ -1,0 +1,409 @@
+2023-06-22 13:27:56.755 INFO  [com.sso.SSOApplication] - Starting AuthApplication using Java 18.0.2.1 with PID 11724 (M:\moduels\module-test\soso\auth\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 13:27:56.779 INFO  [com.sso.SSOApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 13:27:58.929 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 13:27:58.960 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-06-22 13:27:59.132 WARN  [o.m.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.sso]' package. Please check your configuration.
+2023-06-22 13:28:00.609 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8082 (http)
+2023-06-22 13:28:00.631 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8082"]
+2023-06-22 13:28:00.633 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 13:28:00.634 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 13:28:00.790 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 13:28:00.791 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3882 ms
+2023-06-22 13:28:01.151 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 13:28:01.648 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55361f03
+2023-06-22 13:28:01.653 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 13:28:01.750 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 13:28:01.977 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 13:28:01.982 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 13:28:02.566 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:28:03.017 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 13:28:03.218 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 13:28:03.514 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:28:04.173 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 13:28:04.193 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 13:28:05.076 WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 13:28:05.957 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8082"]
+2023-06-22 13:28:06.030 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8082 (http) with context path ''
+2023-06-22 13:28:06.042 INFO  [com.sso.SSOApplication] - Started AuthApplication in 10.734 seconds (process running for 11.566)
+2023-06-22 13:28:14.412 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 13:28:14.413 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 13:28:14.415 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-06-22 13:29:33.997 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 13:29:34.003 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 13:29:34.033 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 13:29:40.326 INFO  [com.sso.SSOApplication] - Starting AuthApplication using Java 18.0.2.1 with PID 17444 (M:\moduels\module-test\soso\auth\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 13:29:40.332 INFO  [com.sso.SSOApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 13:29:42.380 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 13:29:42.413 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-06-22 13:29:42.620 WARN  [o.m.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.sso]' package. Please check your configuration.
+2023-06-22 13:29:44.131 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8082 (http)
+2023-06-22 13:29:44.159 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8082"]
+2023-06-22 13:29:44.160 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 13:29:44.161 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 13:29:44.334 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 13:29:44.335 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3896 ms
+2023-06-22 13:29:44.699 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 13:29:45.240 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dfd7eaa
+2023-06-22 13:29:45.247 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 13:29:45.343 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 13:29:45.583 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 13:29:45.590 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 13:29:46.182 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:29:46.694 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 13:29:46.932 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 13:29:47.298 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:29:48.088 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 13:29:48.115 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 13:29:49.451 WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 13:29:50.676 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8082"]
+2023-06-22 13:29:50.704 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8082 (http) with context path ''
+2023-06-22 13:29:50.732 INFO  [com.sso.SSOApplication] - Started AuthApplication in 11.82 seconds (process running for 12.433)
+2023-06-22 13:29:52.077 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 13:29:52.078 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 13:29:52.080 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-06-22 13:29:52.862 INFO  [o.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 275 ms
+2023-06-22 13:31:05.058 INFO  [com.sso.controller.AuthController] - login1
+2023-06-22 13:31:21.612 INFO  [com.sso.controller.AuthController] - login2
+2023-06-22 13:33:04.880 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 13:33:05.127 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 11952 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 13:33:05.129 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 13:33:07.135 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=a5bc8dea-831f-3958-8d26-46e5508f3faa
+2023-06-22 13:33:07.810 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 13:33:07.835 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 13:33:07.837 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 13:33:07.838 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 13:33:09.931 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 13:33:09.933 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 13:33:09.934 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 13:33:09.935 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 13:33:09.935 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 13:33:09.935 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 13:33:09.936 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 13:33:09.936 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 13:33:09.938 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 13:33:09.938 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 13:33:09.939 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 13:33:09.940 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 13:33:09.940 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 13:33:09.941 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 13:33:10.750 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 13:33:10.775 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 13:33:10.853 INFO  [com.api.ApiApplication] - Started ApiApplication in 7.373 seconds (process running for 7.954)
+2023-06-22 13:33:25.248 INFO  [com.log.LogApplication] - Starting KakaoApplication using Java 18.0.2.1 with PID 3836 (M:\moduels\module-test\soso\kakao\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 13:33:25.253 INFO  [com.log.LogApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 13:33:27.489 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 13:33:27.966 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 454 ms. Found 1 JPA repository interfaces.
+2023-06-22 13:33:29.357 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2023-06-22 13:33:29.379 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-22 13:33:29.381 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 13:33:29.382 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 13:33:29.559 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 13:33:29.560 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4198 ms
+2023-06-22 13:33:29.895 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 13:33:30.404 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b3cbe6e
+2023-06-22 13:33:30.410 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 13:33:30.526 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 13:33:30.761 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 13:33:30.766 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 13:33:31.365 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:33:31.865 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 13:33:32.098 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 13:33:32.741 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 13:33:34.518 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 13:33:34.527 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 13:33:37.229 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-22 13:33:37.258 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-22 13:33:37.264 INFO  [com.log.LogApplication] - Started KakaoApplication in 13.365 seconds (process running for 13.966)
+2023-06-22 13:33:58.306 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 13:33:58.307 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 13:33:58.308 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 0 ms
+2023-06-22 13:33:59.049 INFO  [o.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 397 ms
+2023-06-22 14:20:08.144 INFO  [com.log.controller.LogController] - kakao1
+2023-06-22 14:25:41.327 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 14:25:41.553 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 19092 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:25:41.554 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:25:43.744 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=a5bc8dea-831f-3958-8d26-46e5508f3faa
+2023-06-22 14:25:44.433 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 14:25:44.460 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:25:44.461 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:25:44.463 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:25:46.894 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 14:25:46.895 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 14:25:46.895 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 14:25:46.896 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 14:25:46.896 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 14:25:46.897 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 14:25:46.898 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 14:25:46.899 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 14:25:46.899 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 14:25:46.900 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 14:25:46.901 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 14:25:46.901 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 14:25:46.902 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 14:25:46.903 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 14:25:47.670 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:25:47.704 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 14:25:47.794 INFO  [com.api.ApiApplication] - Started ApiApplication in 7.789 seconds (process running for 8.373)
+2023-06-22 14:27:00.869 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 14:27:01.095 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 15988 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:27:01.097 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:27:03.062 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=a5bc8dea-831f-3958-8d26-46e5508f3faa
+2023-06-22 14:27:03.746 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 14:27:03.777 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:27:03.779 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:27:03.779 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:27:05.764 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 14:27:05.766 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 14:27:05.767 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 14:27:05.767 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 14:27:05.767 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 14:27:05.768 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 14:27:05.769 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 14:27:05.770 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 14:27:05.771 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 14:27:05.771 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 14:27:05.772 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 14:27:05.773 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 14:27:05.773 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 14:27:05.774 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 14:27:06.423 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:27:06.451 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 14:27:06.544 INFO  [com.api.ApiApplication] - Started ApiApplication in 6.933 seconds (process running for 7.508)
+2023-06-22 14:36:29.580 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 14:36:29.815 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 19864 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:36:29.816 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:36:32.036 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=a5bc8dea-831f-3958-8d26-46e5508f3faa
+2023-06-22 14:36:32.810 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 14:36:32.848 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:36:32.849 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:36:32.851 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:36:35.042 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 14:36:35.043 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 14:36:35.043 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 14:36:35.044 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 14:36:35.045 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 14:36:35.046 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 14:36:35.047 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 14:36:35.048 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 14:36:35.048 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 14:36:35.049 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 14:36:35.050 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 14:36:35.051 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 14:36:35.052 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 14:36:35.052 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 14:36:35.803 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:36:35.836 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 14:36:35.961 INFO  [com.api.ApiApplication] - Started ApiApplication in 7.752 seconds (process running for 8.402)
+2023-06-22 14:39:28.626 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 14:39:28.868 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 18132 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:39:28.869 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:39:31.094 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=29263e79-c368-3939-ac18-753a01c7634a
+2023-06-22 14:39:31.982 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 14:39:32.008 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:39:32.009 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:39:32.010 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:39:34.829 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 14:39:34.830 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 14:39:34.831 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 14:39:34.832 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 14:39:34.833 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 14:39:34.834 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 14:39:34.834 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 14:39:34.835 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 14:39:34.835 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 14:39:34.836 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 14:39:34.837 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 14:39:34.837 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 14:39:34.838 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 14:39:34.840 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 14:39:35.406 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:39:35.436 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 14:39:35.668 INFO  [com.api.ApiApplication] - Started ApiApplication in 8.55 seconds (process running for 9.199)
+2023-06-22 14:42:04.365 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 14:42:04.650 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 17936 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:42:04.652 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:42:06.891 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=29263e79-c368-3939-ac18-753a01c7634a
+2023-06-22 14:42:07.716 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 14:42:07.762 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:42:07.763 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:42:07.764 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:42:10.121 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 14:42:10.122 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 14:42:10.123 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 14:42:10.123 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 14:42:10.124 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 14:42:10.125 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 14:42:10.125 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 14:42:10.126 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 14:42:10.127 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 14:42:10.127 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 14:42:10.128 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 14:42:10.129 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 14:42:10.130 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 14:42:10.130 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 14:42:10.636 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 14:42:10.666 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 14:42:10.762 INFO  [com.api.ApiApplication] - Started ApiApplication in 7.863 seconds (process running for 8.533)
+2023-06-22 14:43:08.453 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 14:43:08.456 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 14:43:08.516 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 14:43:12.870 INFO  [com.sso.SSOApplication] - Starting AuthApplication using Java 18.0.2.1 with PID 8560 (M:\moduels\module-test\soso\auth\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:43:12.875 INFO  [com.sso.SSOApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:43:14.056 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 14:43:14.060 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 14:43:14.093 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 14:43:15.283 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 14:43:15.326 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2023-06-22 14:43:15.575 WARN  [o.m.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.sso]' package. Please check your configuration.
+2023-06-22 14:43:17.566 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8082 (http)
+2023-06-22 14:43:17.596 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8082"]
+2023-06-22 14:43:17.597 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:43:17.598 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:43:17.817 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 14:43:17.819 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4835 ms
+2023-06-22 14:43:17.815 INFO  [com.log.LogApplication] - Starting KakaoApplication using Java 18.0.2.1 with PID 21412 (M:\moduels\module-test\soso\kakao\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 14:43:17.824 INFO  [com.log.LogApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 14:43:18.196 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 14:43:18.712 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@782fd504
+2023-06-22 14:43:18.723 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 14:43:18.858 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 14:43:19.129 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 14:43:19.139 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 14:43:19.794 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 14:43:20.169 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 14:43:20.412 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 14:43:20.646 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 14:43:20.724 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 536 ms. Found 1 JPA repository interfaces.
+2023-06-22 14:43:21.024 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 14:43:21.961 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 14:43:21.999 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 14:43:22.259 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2023-06-22 14:43:22.283 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-22 14:43:22.285 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 14:43:22.286 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 14:43:22.500 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 14:43:22.501 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4527 ms
+2023-06-22 14:43:22.899 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 14:43:23.379 WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 14:43:23.588 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664db2ca
+2023-06-22 14:43:23.601 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 14:43:23.824 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 14:43:24.132 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 14:43:24.138 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 14:43:24.908 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8082"]
+2023-06-22 14:43:24.946 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8082 (http) with context path ''
+2023-06-22 14:43:24.956 INFO  [com.sso.SSOApplication] - Started AuthApplication in 13.823 seconds (process running for 15.341)
+2023-06-22 14:43:25.062 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 14:43:25.701 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 14:43:25.970 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 14:43:26.825 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 14:43:29.202 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 14:43:29.212 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 14:43:32.786 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-22 14:43:32.816 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-22 14:43:32.822 INFO  [com.log.LogApplication] - Started KakaoApplication in 16.835 seconds (process running for 17.553)
+2023-06-22 14:43:39.089 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 14:43:39.091 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 14:43:39.092 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 0 ms
+2023-06-22 14:43:40.019 INFO  [o.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 370 ms
+2023-06-22 14:43:41.270 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 14:43:41.272 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 14:43:41.273 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-06-22 14:43:42.050 INFO  [o.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 395 ms
+2023-06-22 15:00:33.921 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 15:00:33.924 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 15:00:33.958 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 15:00:44.186 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 15:00:44.190 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 15:00:44.226 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 15:00:44.686 INFO  [com.log.LogApplication] - Starting KakaoApplication using Java 18.0.2.1 with PID 20952 (M:\moduels\module-test\soso\kakao\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 15:00:44.692 INFO  [com.log.LogApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 15:00:46.867 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 15:00:47.422 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 529 ms. Found 1 JPA repository interfaces.
+2023-06-22 15:00:49.085 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2023-06-22 15:00:49.115 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-22 15:00:49.117 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 15:00:49.118 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 15:00:49.296 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 15:00:49.297 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4480 ms
+2023-06-22 15:00:49.724 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 15:00:49.962 INFO  [com.sso.SSOApplication] - Starting AuthApplication using Java 18.0.2.1 with PID 16064 (M:\moduels\module-test\soso\auth\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 15:00:49.970 INFO  [com.sso.SSOApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 15:00:50.316 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@561f9d92
+2023-06-22 15:00:50.322 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 15:00:50.444 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 15:00:50.752 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 15:00:50.768 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 15:00:51.478 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 15:00:52.071 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 15:00:52.111 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-06-22 15:00:52.115 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 15:00:52.360 WARN  [o.m.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.sso]' package. Please check your configuration.
+2023-06-22 15:00:52.398 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 15:00:53.293 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 15:00:54.187 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8082 (http)
+2023-06-22 15:00:54.220 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8082"]
+2023-06-22 15:00:54.221 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 15:00:54.223 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 15:00:54.407 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-06-22 15:00:54.408 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4312 ms
+2023-06-22 15:00:54.877 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-06-22 15:00:55.457 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fddd7ae
+2023-06-22 15:00:55.463 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-06-22 15:00:55.567 INFO  [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 15:00:55.800 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 15:00:55.813 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 15:00:55.840 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-22 15:00:55.853 INFO  [org.hibernate.cfg.Environment] - HHH000406: Using bytecode reflection optimizer
+2023-06-22 15:00:56.501 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 15:00:57.093 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-22 15:00:57.441 INFO  [org.hibernate.orm.dialect] - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.32
+2023-06-22 15:00:57.889 INFO  [o.h.b.internal.BytecodeProviderInitiator] - HHH000021: Bytecode provider name : bytebuddy
+2023-06-22 15:00:58.793 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-22 15:00:58.872 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-22 15:00:58.879 INFO  [com.log.LogApplication] - Started KakaoApplication in 15.789 seconds (process running for 16.452)
+2023-06-22 15:00:59.024 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 15:00:59.047 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 15:01:00.107 INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 15:01:00.243 WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 15:01:00.460 INFO  [com.api.ApiApplication] - Starting ApiApplication using Java 18.0.2.1 with PID 8296 (M:\moduels\module-test\soso\api\target\classes started by s_msjeon23032 in M:\moduels)
+2023-06-22 15:01:00.462 INFO  [com.api.ApiApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-06-22 15:01:01.479 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8082"]
+2023-06-22 15:01:01.529 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8082 (http) with context path ''
+2023-06-22 15:01:01.543 INFO  [com.sso.SSOApplication] - Started AuthApplication in 13.292 seconds (process running for 13.96)
+2023-06-22 15:01:03.241 INFO  [o.s.cloud.context.scope.GenericScope] - BeanFactory id=a5bc8dea-831f-3958-8d26-46e5508f3faa
+2023-06-22 15:01:03.979 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-06-22 15:01:04.009 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-22 15:01:04.009 INFO  [o.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-06-22 15:01:04.010 INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-22 15:01:06.444 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [After]
+2023-06-22 15:01:06.445 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Before]
+2023-06-22 15:01:06.445 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Between]
+2023-06-22 15:01:06.446 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Cookie]
+2023-06-22 15:01:06.447 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Header]
+2023-06-22 15:01:06.447 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Host]
+2023-06-22 15:01:06.448 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Method]
+2023-06-22 15:01:06.449 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Path]
+2023-06-22 15:01:06.450 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Query]
+2023-06-22 15:01:06.450 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [ReadBody]
+2023-06-22 15:01:06.451 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-22 15:01:06.452 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-22 15:01:06.453 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [Weight]
+2023-06-22 15:01:06.454 INFO  [o.s.c.g.r.RouteDefinitionRouteLocator] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-22 15:01:07.260 INFO  [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-22 15:01:07.295 INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 15:01:07.399 INFO  [com.api.ApiApplication] - Started ApiApplication in 9.048 seconds (process running for 9.809)
+2023-06-22 15:01:43.782 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 15:01:43.784 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 15:01:43.786 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-06-22 15:01:54.581 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 15:01:54.581 INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-06-22 15:01:54.583 INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-06-22 15:01:54.655 INFO  [com.log.controller.LogController] - kakao
+2023-06-22 15:01:54.659 INFO  [com.common.Common] - common
+2023-06-22 16:04:30.261 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 16:04:30.265 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 16:04:30.293 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-06-22 16:04:31.517 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 16:04:31.520 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-06-22 16:04:31.548 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

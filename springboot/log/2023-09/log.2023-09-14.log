@@ -1,0 +1,313 @@
+2023-09-14 11:24:40.061 INFO  Starting LogApplication using Java 20.0.2 with PID 16580 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 11:24:40.097 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 11:24:42.467 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 11:24:42.490 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 11:24:42.567 INFO  Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
+2023-09-14 11:24:42.606 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 11:24:42.610 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 11:24:42.631 INFO  Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-09-14 11:24:45.729 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 11:24:45.761 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 11:24:45.766 INFO  Starting service [Tomcat]
+2023-09-14 11:24:45.767 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 11:24:46.000 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 11:24:46.002 INFO  Root WebApplicationContext: initialization completed in 5790 ms
+2023-09-14 11:24:46.464 INFO  HikariPool-1 - Starting...
+2023-09-14 11:24:46.948 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 0e5361e1-43ff-40de-9526-9c06cc67a552
+2023-09-14 11:24:46.955 INFO  HikariPool-1 - Start completed.
+2023-09-14 11:24:47.114 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 11:24:47.417 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 11:24:47.425 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 11:24:48.135 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 11:24:48.902 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 11:24:49.900 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 11:24:50.933 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 11:24:50.958 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 11:24:54.288 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 11:24:54.765 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 11:24:54.844 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 11:24:54.866 INFO  Started LogApplication in 16.369 seconds (process running for 17.093)
+2023-09-14 11:33:32.360 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 11:33:32.362 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 11:33:32.364 INFO  Completed initialization in 1 ms
+2023-09-14 11:33:32.477 WARN  Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity com.log.controller.LogController.info(com.common.log.LogDTO)]
+2023-09-14 11:34:44.610 INFO  [testClassName] [testMethodName] logdata
+2023-09-14 11:36:35.705 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 11:36:36.136 WARN  warn 로그 저장 에러... 
+LogDTO : [testClassName] [testMethodName] logdata
+에러 메시지 : 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 개체 이름 'test.log'이(가) 유효하지 않습니다.
+### The error may exist in file [M:\springboot\soso\log\target\classes\mapper\LogMapper.xml]
+### The error may involve com.log.ra.itf.LogRAO.registerWarnLog-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO test.log (class, method, log, regDate)         VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 개체 이름 'test.log'이(가) 유효하지 않습니다.
+; bad SQL grammar []
+2023-09-14 11:40:41.075 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 11:40:41.078 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 11:40:41.080 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 11:40:44.861 INFO  Starting LogApplication using Java 20.0.2 with PID 12504 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 11:40:44.865 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 11:40:47.764 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 11:40:47.771 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 11:40:47.809 INFO  Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2023-09-14 11:40:47.839 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 11:40:47.843 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 11:40:47.862 INFO  Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-09-14 11:40:50.289 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 11:40:50.315 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 11:40:50.321 INFO  Starting service [Tomcat]
+2023-09-14 11:40:50.322 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 11:40:50.544 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 11:40:50.545 INFO  Root WebApplicationContext: initialization completed in 5541 ms
+2023-09-14 11:40:51.024 INFO  HikariPool-1 - Starting...
+2023-09-14 11:40:51.503 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: baef2c2f-01c9-4b3b-9773-7a18bbf2d321
+2023-09-14 11:40:51.510 INFO  HikariPool-1 - Start completed.
+2023-09-14 11:40:51.660 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 11:40:51.975 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 11:40:52.011 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 11:40:52.838 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 11:40:53.619 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 11:40:54.181 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 11:40:55.137 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 11:40:55.169 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 11:40:58.272 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 11:40:58.548 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 11:40:58.582 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 11:40:58.593 INFO  Started LogApplication in 15.52 seconds (process running for 16.368)
+2023-09-14 11:41:02.903 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 11:41:02.904 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 11:41:02.906 INFO  Completed initialization in 1 ms
+2023-09-14 11:41:03.241 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 11:41:03.462 WARN  warn 로그 저장 에러... 
+LogDTO : [testClassName] [testMethodName] logdata
+에러 메시지 : 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 열 이름 'class'이(가) 유효하지 않습니다.
+### The error may exist in file [M:\springboot\soso\log\target\classes\mapper\LogMapper.xml]
+### The error may involve com.log.ra.itf.LogRAO.registerWarnLog-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO dbo.log (class, method, log, regDate)         VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 열 이름 'class'이(가) 유효하지 않습니다.
+; bad SQL grammar []
+2023-09-14 11:41:20.995 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 11:41:21.001 WARN  warn 로그 저장 에러... 
+LogDTO : [testClassName] [testMethodName] logdata
+에러 메시지 : 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 열 이름 'method'이(가) 유효하지 않습니다.
+### The error may exist in file [M:\springboot\soso\log\target\classes\mapper\LogMapper.xml]
+### The error may involve com.log.ra.itf.LogRAO.registerWarnLog-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO dbo.log (class, method, log, regDate)         VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 열 이름 'method'이(가) 유효하지 않습니다.
+; bad SQL grammar []
+2023-09-14 12:40:56.905 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 12:40:56.920 WARN  warn 로그 저장 에러... 
+LogDTO : [testClassName] [testMethodName] logdata
+에러 메시지 : 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 명시적 값을 타임스탬프 열에 삽입할 수 없습니다. 열 목록과 함께 INSERT를 사용하여 타임스탬프 열을 제외하거나 타임스탬프 열에 DEFAULT를 삽입하십시오.
+### The error may exist in file [M:\springboot\soso\log\target\classes\mapper\LogMapper.xml]
+### The error may involve com.log.ra.itf.LogRAO.registerWarnLog-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO dbo.log (class, method, log, regDate)         VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 명시적 값을 타임스탬프 열에 삽입할 수 없습니다. 열 목록과 함께 INSERT를 사용하여 타임스탬프 열을 제외하거나 타임스탬프 열에 DEFAULT를 삽입하십시오.
+; uncategorized SQLException; SQL state [S0001]; error code [273]; 명시적 값을 타임스탬프 열에 삽입할 수 없습니다. 열 목록과 함께 INSERT를 사용하여 타임스탬프 열을 제외하거나 타임스탬프 열에 DEFAULT를 삽입하십시오.
+2023-09-14 12:44:07.543 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:44:07.547 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 12:44:07.548 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 12:44:10.824 INFO  Starting LogApplication using Java 20.0.2 with PID 20060 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 12:44:10.828 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 12:44:13.276 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:44:13.284 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 12:44:13.313 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-09-14 12:44:13.337 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:44:13.342 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 12:44:13.363 INFO  Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-09-14 12:44:15.516 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 12:44:15.541 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:44:15.546 INFO  Starting service [Tomcat]
+2023-09-14 12:44:15.547 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 12:44:15.727 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 12:44:15.728 INFO  Root WebApplicationContext: initialization completed in 4783 ms
+2023-09-14 12:44:16.131 INFO  HikariPool-1 - Starting...
+2023-09-14 12:44:16.565 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 7fc6a944-a642-4d0e-80ec-fda67138c760
+2023-09-14 12:44:16.572 INFO  HikariPool-1 - Start completed.
+2023-09-14 12:44:16.689 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 12:44:16.928 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 12:44:16.934 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 12:44:17.555 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:44:18.071 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 12:44:18.547 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:44:19.270 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 12:44:19.299 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:44:23.038 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 12:44:23.295 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:44:23.328 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 12:44:23.338 INFO  Started LogApplication in 13.97 seconds (process running for 14.613)
+2023-09-14 12:44:26.394 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 12:44:26.395 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 12:44:26.397 INFO  Completed initialization in 1 ms
+2023-09-14 12:44:26.703 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 12:47:34.664 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:47:34.667 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 12:47:34.669 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 12:47:37.880 INFO  Starting LogApplication using Java 20.0.2 with PID 20100 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 12:47:37.884 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 12:47:39.979 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:47:39.987 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 12:47:40.054 INFO  Finished Spring Data repository scanning in 48 ms. Found 0 JDBC repository interfaces.
+2023-09-14 12:47:40.075 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:47:40.079 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 12:47:40.098 INFO  Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-09-14 12:47:42.019 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 12:47:42.045 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:47:42.051 INFO  Starting service [Tomcat]
+2023-09-14 12:47:42.052 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 12:47:42.252 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 12:47:42.253 INFO  Root WebApplicationContext: initialization completed in 4256 ms
+2023-09-14 12:47:42.920 INFO  HikariPool-1 - Starting...
+2023-09-14 12:47:43.405 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 08d73824-0dea-47bd-89f8-687c01e514fd
+2023-09-14 12:47:43.412 INFO  HikariPool-1 - Start completed.
+2023-09-14 12:47:43.616 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 12:47:43.896 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 12:47:43.902 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 12:47:44.757 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:47:45.359 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 12:47:45.881 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:47:46.687 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 12:47:46.712 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:47:49.558 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 12:47:49.833 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:47:49.864 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 12:47:49.878 INFO  Started LogApplication in 13.422 seconds (process running for 14.089)
+2023-09-14 12:47:52.237 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 12:47:52.238 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 12:47:52.240 INFO  Completed initialization in 1 ms
+2023-09-14 12:47:52.582 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 12:53:11.085 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:53:11.088 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 12:53:11.090 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 12:59:34.911 INFO  Starting LogApplication using Java 20.0.2 with PID 11820 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 12:59:34.915 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 12:59:36.792 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:59:36.800 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 12:59:36.828 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-09-14 12:59:36.846 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 12:59:36.850 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 12:59:36.867 INFO  Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-09-14 12:59:38.801 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 12:59:38.825 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:59:38.831 INFO  Starting service [Tomcat]
+2023-09-14 12:59:38.832 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 12:59:39.022 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 12:59:39.023 INFO  Root WebApplicationContext: initialization completed in 3996 ms
+2023-09-14 12:59:39.534 INFO  HikariPool-1 - Starting...
+2023-09-14 12:59:39.965 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 994b952b-d214-4bdc-b5ec-f6f1d35c4467
+2023-09-14 12:59:39.972 INFO  HikariPool-1 - Start completed.
+2023-09-14 12:59:40.141 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 12:59:40.410 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 12:59:40.416 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 12:59:41.131 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:59:41.712 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 12:59:42.265 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 12:59:43.118 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 12:59:43.144 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 12:59:45.453 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 12:59:45.713 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 12:59:45.748 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 12:59:45.759 INFO  Started LogApplication in 12.875 seconds (process running for 13.557)
+2023-09-14 12:59:53.831 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 12:59:53.832 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 12:59:53.834 INFO  Completed initialization in 1 ms
+2023-09-14 12:59:54.195 WARN  [testClassName] [testMethodName] logdata
+2023-09-14 13:01:04.896 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 13:01:04.899 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 13:01:04.901 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 13:01:08.296 INFO  Starting LogApplication using Java 20.0.2 with PID 13604 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 13:01:08.300 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 13:01:10.689 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 13:01:10.697 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 13:01:10.722 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-09-14 13:01:10.743 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 13:01:10.745 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 13:01:10.760 INFO  Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-09-14 13:01:12.868 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 13:01:12.894 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 13:01:12.899 INFO  Starting service [Tomcat]
+2023-09-14 13:01:12.900 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 13:01:13.087 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 13:01:13.089 INFO  Root WebApplicationContext: initialization completed in 4668 ms
+2023-09-14 13:01:13.505 INFO  HikariPool-1 - Starting...
+2023-09-14 13:01:13.937 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 6cd36461-47e9-45dd-8f5f-5c7e2bd648c9
+2023-09-14 13:01:13.944 INFO  HikariPool-1 - Start completed.
+2023-09-14 13:01:14.071 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 13:01:14.314 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 13:01:14.322 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 13:01:15.120 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 13:01:15.655 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 13:01:16.181 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 13:01:17.054 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 13:01:17.081 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 13:01:19.446 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 13:01:19.701 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 13:01:19.738 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 13:01:19.751 INFO  Started LogApplication in 13.124 seconds (process running for 13.922)
+2023-09-14 13:01:48.738 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 13:01:48.739 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 13:01:48.741 INFO  Completed initialization in 1 ms
+2023-09-14 13:01:49.082 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:01.098 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:01.598 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:02.143 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:02.722 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:03.331 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:03.847 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:06.621 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:12.272 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:12.881 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:13.370 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:13.859 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:02:14.385 WARN  [testClassName1] [testMethodName2] logdata3
+2023-09-14 13:05:33.656 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:05:42.353 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:09:51.581 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:10:28.149 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:20:59.194 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 13:20:59.197 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 13:20:59.199 INFO  HikariPool-1 - Shutdown completed.
+2023-09-14 13:21:06.466 INFO  Starting LogApplication using Java 20.0.2 with PID 19760 (M:\springboot\soso\log\target\classes started by s_msjeon23032 in M:\springboot)
+2023-09-14 13:21:06.469 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-14 13:21:09.356 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 13:21:09.363 INFO  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-14 13:21:09.390 INFO  Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-09-14 13:21:09.411 INFO  Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 13:21:09.414 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 13:21:09.431 INFO  Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-09-14 13:21:11.718 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-09-14 13:21:11.754 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-09-14 13:21:11.760 INFO  Starting service [Tomcat]
+2023-09-14 13:21:11.761 INFO  Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-14 13:21:11.988 INFO  Initializing Spring embedded WebApplicationContext
+2023-09-14 13:21:11.989 INFO  Root WebApplicationContext: initialization completed in 5411 ms
+2023-09-14 13:21:12.432 INFO  HikariPool-1 - Starting...
+2023-09-14 13:21:12.879 INFO  HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 9ef2d7c3-6035-4cce-b857-c8a2f3bfa572
+2023-09-14 13:21:12.917 INFO  HikariPool-1 - Start completed.
+2023-09-14 13:21:13.112 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 13:21:13.570 INFO  HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-14 13:21:13.596 INFO  HHH000406: Using bytecode reflection optimizer
+2023-09-14 13:21:14.494 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 13:21:15.307 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-14 13:21:15.900 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-09-14 13:21:16.955 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 13:21:16.980 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 13:21:20.282 WARN  Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-09-14 13:21:20.614 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-09-14 13:21:20.692 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-09-14 13:21:20.706 INFO  Started LogApplication in 15.932 seconds (process running for 16.768)
+2023-09-14 13:21:56.846 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 13:21:56.847 INFO  Initializing Servlet 'dispatcherServlet'
+2023-09-14 13:21:56.849 INFO  Completed initialization in 2 ms
+2023-09-14 13:21:57.129 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:23:24.146 INFO  [KakaoController] [kakao] Start
+2023-09-14 13:33:42.429 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 13:33:42.434 INFO  HikariPool-1 - Shutdown initiated...
+2023-09-14 13:33:42.436 INFO  HikariPool-1 - Shutdown completed.

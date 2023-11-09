@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kace.ra.itf.KakaoRAO">
+<!--    <select id="testAll" parameterType="hashMap" resultType="hashMap">-->
+<!--        SELECT * FROM soso.kakao-->
+<!--    </select>-->
+    <select id="testAll" parameterType="hashMap" resultType="MenuDTO">
+        SELECT * FROM dbo.MENU_LIST
+    </select>
+
+<!--    <resultMap id="testSP" type="hashmap"></resultMap>-->
+    <resultMap id="resultMap1" type="hashMap"></resultMap>
+    <resultMap id="resultMap2" type="hashMap"></resultMap>
+    <select id="testSP" statementType="CALLABLE" resultMap="resultMap1, resultMap2">
+        {
+            CALL MS_SP_GetAllBoards(5, 1)
+        }
+    </select>
+
+    <select id="findAllUsers" resultType="UserDTO">
+        SELECT * FROM dbo.MS_ACCOUNT
+    </select>
+
+    <insert id="registerMenuAuth" parameterType="hashMap">
+        INSERT INTO dbo.MENU_AUTH(MENU_CODE, C, R, U, D, USER_NAME, USER_CODE)
+        VALUES (#{MENU_CODE}, 0, 1, 0, 0, #{USER_NAME}, #{USER_CODE})
+    </insert>
+
+    <select id="selectUserMenuAuth" resultType="MenuAuthDTO" parameterType="java.lang.Integer">
+        SELECT * FROM dbo.MENU_AUTH WHERE USER_CODE = #{userCode}
+    </select>
+
+    <update id="updateMenuAuth" parameterType="MenuAuthDTO">
+        UPDATE dbo.MENU_AUTH
+        SET C = #{C}, R=#{R}, U=#{U}, D=#{D}
+        WHERE MENU_CODE = #{MENU_CODE} AND USER_CODE = #{USER_CODE}
+    </update>
+</mapper>

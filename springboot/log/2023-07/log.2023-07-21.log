@@ -1,0 +1,33 @@
+2023-07-21 09:49:32.089 INFO  Starting LogApplication using Java 18.0.2.1 with PID 14120 (M:\moduels\module-test\soso\log\target\classes started by s_msjeon23032 in M:\moduels\module-test)
+2023-07-21 09:49:32.120 INFO  No active profile set, falling back to 1 default profile: "default"
+2023-07-21 09:49:34.464 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 09:49:34.496 INFO  Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-07-21 09:49:36.310 INFO  Tomcat initialized with port(s): 8088 (http)
+2023-07-21 09:49:36.337 INFO  Initializing ProtocolHandler ["http-nio-8088"]
+2023-07-21 09:49:36.338 INFO  Starting service [Tomcat]
+2023-07-21 09:49:36.339 INFO  Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-21 09:49:36.503 INFO  Initializing Spring embedded WebApplicationContext
+2023-07-21 09:49:36.504 INFO  Root WebApplicationContext: initialization completed in 4270 ms
+2023-07-21 09:49:36.877 INFO  HikariPool-1 - Starting...
+2023-07-21 09:49:37.453 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c97721b
+2023-07-21 09:49:37.460 INFO  HikariPool-1 - Start completed.
+2023-07-21 09:49:37.573 INFO  HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 09:49:37.829 INFO  HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-21 09:49:37.839 INFO  HHH000406: Using bytecode reflection optimizer
+2023-07-21 09:49:38.465 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-07-21 09:49:39.013 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-21 09:49:39.283 INFO  HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-21 09:49:39.603 INFO  HHH000021: Bytecode provider name : bytebuddy
+2023-07-21 09:49:40.387 INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 09:49:40.410 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 09:49:42.931 INFO  Starting ProtocolHandler ["http-nio-8088"]
+2023-07-21 09:49:42.965 INFO  Tomcat started on port(s): 8088 (http) with context path '/api/log'
+2023-07-21 09:49:42.977 INFO  Started LogApplication in 12.285 seconds (process running for 12.895)
+2023-07-21 09:50:39.595 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 09:50:39.596 INFO  Initializing Servlet 'dispatcherServlet'
+2023-07-21 09:50:39.598 INFO  Completed initialization in 1 ms
+2023-07-21 09:50:40.508 INFO  Init duration for springdoc-openapi is: 388 ms
+2023-07-21 10:18:09.079 INFO  [KakaoController] [kakao] Start
+2023-07-21 15:01:32.221 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 15:01:32.232 INFO  HikariPool-1 - Shutdown initiated...
+2023-07-21 15:01:32.261 INFO  HikariPool-1 - Shutdown completed.
