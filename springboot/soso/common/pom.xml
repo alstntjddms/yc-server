@@ -4,8 +4,8 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.soso</groupId>
-        <artifactId>soso</artifactId>
+        <groupId>com.yc</groupId>
+        <artifactId>yc</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
