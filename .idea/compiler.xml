@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kace" />
-        <module name="api" />
-        <module name="common" />
-        <module name="log" />
-        <module name="sso" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="17" />
+      <module name="common" target="17" />
+      <module name="kace" target="17" />
+      <module name="log" target="17" />
+      <module name="sso" target="17" />
+      <module name="yc" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
